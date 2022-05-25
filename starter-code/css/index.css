@@ -1,0 +1,78 @@
+:root {
+    --dark: #0b0d17;
+    --lavender: #d0d6f9;
+    --white: #ffffff;
+}
+
+@import "./typography.css";
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bellefair", serif;
+    color: var(--lavender);
+}
+
+body {
+    font-size: 18px;
+}
+
+.landing-page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 327px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-page-main h2 {
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.landing-page-main h1 {
+    font-size: 80px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.landing-page-main p {
+    font-size: 14.5px;
+    margin-bottom: 81px;
+    text-align: center;
+    line-height: 25px;
+    font-family: "Barlow", sans-serif;
+    opacity: 0.85;
+}
+
+.button {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    color: var(--dark);
+    font-size: 20px;
+    font-family: "Bellefair", sans-serif;
+    letter-spacing: 1.25px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
